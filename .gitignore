@@ -1,0 +1,9 @@
+#Ignore Adobe's Heavy Files
+#######################
+*.indd
+*.psd
+*.ai
+
+#Not Necessary
+#######################
+*.DS_Store
