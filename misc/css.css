@@ -144,3 +144,9 @@ header a {
 #content-container a:hover {
 	color: rgb(230, 111, 74);
 }
+
+#content-container div.analytics {
+	font-size: .8em;
+	font-style: italic;
+	color: #444;
+}
