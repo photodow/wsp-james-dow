@@ -90,6 +90,7 @@ hgroup a {
 #breadcrumbs {
 	margin-top: 10px;
 	margin-left: 20px;
+	font-size: .9em;
 }
 
 #breadcrumbs p {
@@ -108,8 +109,30 @@ hgroup a {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+	font-style: italic;
+	font-size: .9em;
 }
 
 #content-container ul span {
 	font-weight: bold;
+	color: #e34919;
+}
+
+#content-container header {
+	padding: 20px 0;
+	border-bottom: 1px dotted #bfbfbf;
+	border-top: 1px dotted #bfbfbf;
+}
+
+#content-container section {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px dotted #bfbfbf;
+}
+
+#content-container section p {
+	margin: 0;
+	margin-bottom: 10px;
 }
