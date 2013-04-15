@@ -34,13 +34,13 @@ h3 {
 	font-size: 1.25em;
 }
 
-hgroup {
+header {
 	background: #f5f5f5;
 	padding: 20px;
 	border-bottom: 1px solid #ccc;
 }
 
-hgroup a {
+header a {
 	text-decoration: none;
 }
 
