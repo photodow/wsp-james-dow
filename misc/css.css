@@ -136,3 +136,11 @@ hgroup a {
 	margin: 0;
 	margin-bottom: 10px;
 }
+
+#content-container section a {
+	color: #e34919;
+}
+
+#content-container section a:hover {
+	color: rgb(230, 111, 74);
+}
