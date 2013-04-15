@@ -123,6 +123,9 @@ header a {
 	border-bottom: 1px dotted #bfbfbf;
 	border-top: 1px dotted #bfbfbf;
 	background: none;
+}
+
+#content-container header a {
 	text-decoration: underline;
 }
 
