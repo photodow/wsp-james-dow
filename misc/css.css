@@ -72,3 +72,7 @@ article ul li {
 	float: left;
 	margin: 0 20px;
 }
+
+article a {
+	color: #fff;
+}
