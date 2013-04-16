@@ -44,6 +44,10 @@ header a {
 	text-decoration: none;
 }
 
+header h1, header h2 {
+	display: inline-block;
+}
+
 #menu-container {
 	float: left;
 	padding-bottom: 20px;
@@ -58,7 +62,7 @@ header a {
 	min-height: 60px;
 	width: 360px;
 	padding: 20px;
-	color: #f5f5f5;
+	color: #fff;
 	border: 1px solid #ba3207;
 }
 
@@ -165,4 +169,48 @@ header a {
 	border-bottom: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
+}
+
+#content-container table {
+	border-collapse: collapse;
+	margin-top: 25px;
+	width: 100%;
+}
+
+#content-container table th {
+	background: #e34919 url('week-bg.png');
+	border-bottom: 1px solid #ba3207;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 1.4em;
+	padding: 7px;
+}
+
+#content-container table td {
+	border-bottom: 1px dotted #ddd;
+	color: #666;
+	padding: 10px;
+}
+
+#content-container table td:first-child {
+	color: #343434;
+	font-size: 1.2em;
+	vertical-align: top;
+}
+
+#content-container table td:last-child {
+	width: 400px;
+}
+
+#content-container table td.last {
+	border-bottom: 0;
+} 
+
+
+#content-container table th:first-child, #content-container table td:first-child {
+	padding-left: 25px;
+}
+
+#content-container table th:last-child, #content-container table td:-child {
+	padding-left: 25px;
 }
