@@ -106,6 +106,7 @@ header h1, header h2 {
 	float: left;
 	width: 640px;
 	padding: 20px;
+	position: relative;
 	text-align: justify;
 }
 
@@ -213,4 +214,13 @@ header h1, header h2 {
 
 #content-container table th:last-child, #content-container table td:-child {
 	padding-left: 25px;
+}
+
+#download {
+	margin: 0;
+	position: absolute;
+	right: 0;
+	top: -10px;
+	padding: 6px 20px 0px 25px;
+	background: url('../misc/adobe_pdf_icon.png') no-repeat left bottom;
 }
