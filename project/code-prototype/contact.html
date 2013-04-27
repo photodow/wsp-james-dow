@@ -29,17 +29,27 @@
 		<article>
 			<h2>Contact Form</h2>
 			<form name="" action="" method="">
-				<label for="FirstName">First Name</label><br />
+				<label for="FirstName">First Name*</label><br />
 					<input type="text" name="FirstName" id="FirstName" /><br />
 				
-				<label for="LastName">Last Name</label><br />
+				<label for="LastName">Last Name*</label><br />
 					<input type="text" name="LastName" id="LastName" /><br />
 				
-				<label for="EmailAddress">Email Address</label><br />
+				<label for="EmailAddress">Email Address*</label><br />
 					<input type="text" name="EmailAddress" id="EmailAddress" /><br />
 				
 				<label for="PhoneNumber">Phone Number</label><br />
-					<input type="text" name="PhoneNumber" id="PhoneNumber" /><input type="text" name="PhoneNumber2" id="PhoneNumber2" /><input type="text" name="PhoneNumber3" id="PhoneNumber3" /><br />
+					<input type="text" name="PhoneNumber" id="PhoneNumber" placeholder="###" /><input type="text" name="PhoneNumber2" id="PhoneNumber2" placeholder="###" /><input type="text" name="PhoneNumber3" id="PhoneNumber3" placeholder="###" /><br />
+				
+				<label for="City">City</label><br />
+					<input type="text" name="City" id="City" /><br />
+				<!-- States go here -->
+				<!--<label for="topic">What is your topic?</label><br />
+					<select id="topic" name="topic">
+						<option value="volvo">Planning a Trip?</option>
+						<option value="saab">Relocating</option>
+						<option value="fiat">Chamber of Commerce</option>
+					</select><br />-->
 				
 				<label for="ZipCode">Zip Code</label><br />
 					<input type="text" name="ZipCode" id="ZipCode" /><br />
@@ -56,7 +66,7 @@
 					</select><br />
 
 				<label for="message">Your Message</label><br />
-					<textarea rows="10" cols="30">Your questions or comments go here...</textarea><br />
+					<textarea rows="10" cols="30" placeholder="Your questions or comments go here...">Your questions or comments go here...</textarea><br />
 
 				<label for="newsletter">Sign Up for Our Newsletter</label><br />
 					<input type="checkbox" name="newsletter" value="Beach Travel Guide">Beach Travel Guide<br>
