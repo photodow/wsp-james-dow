@@ -45,7 +45,7 @@
 					<input type="text" name="City" id="City" /><br />
 
 				<label for="State">State</label><br />
-					<select name="State">
+					<select id="State" name="State">
 						<option value="">(choose a state)</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
@@ -103,24 +103,24 @@
 				<label for="ZipCode">Zip Code</label><br />
 					<input type="text" name="ZipCode" id="ZipCode" /><br />
 				
-				<label for="visitedbefore">Have you visited before?</label><br />
-					<input type="radio" name="visitedbefore" value="yes" checked>Yes<br>
-					<input type="radio" name="visitedbefore" value="no">No<br />
+				<label for="VisitedBefore">Have you visited before?</label><br />
+					<input type="radio" name="VisitedBefore" id="VisitedBefore" value="yes" checked>Yes<br>
+					<input type="radio" name="VisitedBefore" value="no">No<br />
 
-				<label for="topic">What is your topic?*</label><br />
-					<select id="topic" name="topic">
+				<label for="Topic">What is your topic?*</label><br />
+					<select id="Topic" name="Topic">
 						<option value="volvo">Planning a Trip?</option>
 						<option value="saab">Relocating</option>
 						<option value="fiat">Chamber of Commerce</option>
 					</select><br />
 
-				<label for="message">Your Message*</label><br />
-					<textarea rows="10" cols="30" placeholder="Your questions or comments go here..."></textarea><br />
+				<label for="Message">Your Message*</label><br />
+					<textarea id="Message" rows="10" cols="30" placeholder="Your questions or comments go here..."></textarea><br />
 
-				<label for="newsletter">Sign Up for Our Newsletter</label><br />
-					<input type="checkbox" name="newsletter" value="Beach Travel Guide" checked>Beach Travel Guide<br>
-					<input type="checkbox" name="newsletter" value="Upcoming Events" checked>Upcoming Events<br>
-					<input type="checkbox" name="newsletter" value="Chamber of Commerce Newsletter" checked>Chamber of Commerce Newsletter<br /> 
+				<label for="Newsletter">Sign Up for Our Newsletter</label><br />
+					<input type="checkbox" name="Newsletter" id="Newsletter" value="Beach Travel Guide" checked>Beach Travel Guide<br>
+					<input type="checkbox" name="Newsletter" value="Upcoming Events" checked>Upcoming Events<br>
+					<input type="checkbox" name="Newsletter" value="Chamber of Commerce Newsletter" checked>Chamber of Commerce Newsletter<br /> 
 				
 				<input type="submit" value="Submit">
 			</form>
