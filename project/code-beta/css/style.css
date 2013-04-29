@@ -1,0 +1,81 @@
+/* css reset */
+@import url('reset.css');
+
+/* ---------- default ---------- */
+
+body {
+	font-size: 18px;
+}
+
+h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+p {
+	font-size: 1em;
+	margin: 10px 0;
+}
+
+ul {
+	list-style-type: disc;
+	margin: 10px 0;
+	padding: 0 0 0 25px;
+}
+
+/* ---------- header ---------- */
+
+/* ---------- navigation ---------- */
+
+/* ---------- footer ---------- */
+
+/* ---------- home ---------- */
+
+/* ---------- vacation ---------- */
+
+/* ---------- relocate ---------- */
+
+/* ---------- events ---------- */
+
+/* ---------- contact ---------- */
+
+/* ---------- about ---------- */
+
+
+
+/* iPhone 4/4S (landscape) ----------- */
+@media screen and (max-width: 960px) {
+/* Styles */
+	body {
+		font-size: 16px;
+	}
+}
+
+/* iPad Mini (portrait) ----------- */
+@media screen and (max-width: 768px) {
+/* Styles */
+	body {
+		font-size: 14px;
+	}
+}
+
+/* iPhone 4/4S (portrait) ----------- */
+@media screen and (max-width: 640px) {
+/* Styles */
+	body {
+		font-size: 12px;
+	}
+}
