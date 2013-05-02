@@ -216,9 +216,9 @@ footer p {
 	overflow: hidden;
 
 
-	-moz-box-shadow: inset 0px 2px 5px #ddd;
-	-webkit-box-shadow: inset 0px 2px 5px #ddd;
-	box-shadow: inset 0px 2px 5px #ddd;
+	-moz-box-shadow: inset 0px 2px 5px #bbb;
+	-webkit-box-shadow: inset 0px 2px 5px #bbb;
+	box-shadow: inset 0px 2px 5px #bbb;
 }
 
 #featured-pages article {
@@ -231,9 +231,9 @@ footer p {
 	display: inline-block;
 
 
-	-moz-box-shadow: 0px 2px 5px #ddd;
-	-webkit-box-shadow: 0px 2px 5px #ddd;
-	box-shadow: 0px 2px 5px #ddd;
+	-moz-box-shadow: 0px 2px 5px #bbb;
+	-webkit-box-shadow: 0px 2px 5px #bbb;
+	box-shadow: 0px 2px 5px #bbb;
 
 }
 
@@ -310,10 +310,6 @@ p.button a:active {
 	border-radius: 3px;
 	border: 1px solid #b19377;
 }
-
-/*#featured-event:after {
-   content: url('../images/featured-event-shadow.png');
-}*/
 
 
 /* ---------- vacation ---------- */
