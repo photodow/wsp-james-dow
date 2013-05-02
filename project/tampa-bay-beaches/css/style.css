@@ -17,6 +17,7 @@ h1, h2 {
 
 h1{
 	font-size: 1.7em; /* 24px */
+	line-height: 1.3em;
 }
 
 h2 {
@@ -32,6 +33,7 @@ h3 {
 p {
 	font-size: 1em;
 	margin: 10px 0;
+	line-height: 1.3em;
 }
 
 ul {
@@ -40,11 +42,12 @@ ul {
 	padding: 0 0 0 25px;
 }
 
-#container {
+.container {
 	max-width: 920px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 20px;
+	overflow: hidden;
 }
 
 section {
@@ -152,9 +155,9 @@ footer { /* Maybe Add Texture/Patter */
 	font-size: 11px;
 	color: #473d35;
 
-	-moz-box-shadow: inset 0px 2px 2px #241c16;
-	-webkit-box-shadow: inset 0px 2px 2px #241c16;
-	box-shadow: inset 0px 2px 2px #241c16;
+	-moz-box-shadow: inset 0px 2px 5px #241c16;
+	-webkit-box-shadow: inset 0px 2px 5px #241c16;
+	box-shadow: inset 0px 2px 5px #241c16;
 
 	border-top: 1px solid #19130f;
 }
@@ -201,12 +204,117 @@ footer p {
 
 #home header{
 	height: 400px;
-	background-position: bottom;
+	background-position: center -10px;
 }
 
 #home #logo {
 	bottom: 55px;
 }
+
+#featured-pages {
+	background-color: #eaeaea;
+	overflow: hidden;
+
+
+	-moz-box-shadow: inset 0px 2px 5px #ddd;
+	-webkit-box-shadow: inset 0px 2px 5px #ddd;
+	box-shadow: inset 0px 2px 5px #ddd;
+}
+
+#featured-pages article {
+	background-color: #fff;
+	float: left;
+	margin-right: 20px;
+	padding: 20px;
+	border-radius: 3px;
+	width: 410px;
+	display: inline-block;
+
+
+	-moz-box-shadow: 0px 2px 5px #ddd;
+	-webkit-box-shadow: 0px 2px 5px #ddd;
+	box-shadow: 0px 2px 5px #ddd;
+
+}
+
+#featured-pages article:last-child {
+	margin-right: 0px;
+}
+
+
+
+#featured-pages article img {
+	border: 1px solid #b6b6b6;
+	border-radius: 3px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+p.button {
+	text-align: right;
+	margin-top: 20px;
+}
+
+p.button a {
+	border-top: 1px solid #fce489;
+	border-right: 1px solid #d8a538;
+	border-bottom: 1px solid #ab6e29;
+	border-left: 1px solid #d8a538;
+	border-radius: 3px;
+	padding: 5px 15px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #a77620;
+
+	background: rgb(229,181,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(229,181,60,1) 0%, rgba(211,133,47,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,181,60,1)), color-stop(100%,rgba(211,133,47,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(211,133,47,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(211,133,47,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(211,133,47,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(229,181,60,1) 0%,rgba(211,133,47,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5b53c', endColorstr='#d3852f',GradientType=0 ); /* IE6-9 */
+}
+
+p.button a:hover {
+	background: rgb(229,181,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(229,181,60,1) 0%, rgba(186,117,41,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,181,60,1)), color-stop(100%,rgba(186,117,41,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(186,117,41,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(186,117,41,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,181,60,1) 0%,rgba(186,117,41,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(229,181,60,1) 0%,rgba(186,117,41,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5b53c', endColorstr='#ba7529',GradientType=0 ); /* IE6-9 */
+}
+
+p.button a:active {
+	background: #ba7529;
+}
+
+#welcome {
+
+}
+
+#featured-event {
+	float: right;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+	padding-bottom: 17px;
+	background: url('../images/featured-event-shadow.png') no-repeat center bottom;
+}
+
+#featured-event img {
+	border-radius: 3px;
+	border: 1px solid #b19377;
+}
+
+/*#featured-event:after {
+   content: url('../images/featured-event-shadow.png');
+}*/
+
 
 /* ---------- vacation ---------- */
 
