@@ -389,6 +389,29 @@ p.button a:active {
 
 /* ---------- about ---------- */
 
+#chamberMembers {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#chamberMembers li {
+	clear: both;
+	margin-top: 20px;
+}
+
+#chamberMembers img {
+	float: left;
+	margin-right: 10px;
+}
+
+#chamberMembers h3 {
+	margin: 0px;
+}
+
+#chamberMembers p {
+	margin: 0px;
+}
+
 
 
 /* iPhone 4/4S (landscape) ----------- */
