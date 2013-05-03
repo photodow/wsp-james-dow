@@ -37,6 +37,14 @@ p {
 	line-height: 1.3em;
 }
 
+a {
+	color: #1c3f94;
+}
+
+a:hover {
+	color: #3d67cd;
+}
+
 ul {
 	list-style-type: disc;
 	margin: 10px 0;
@@ -196,7 +204,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: rgba(196, 152, 99, .20);
+	background: rgba(196, 152, 99, .40);
+	color: #fff;
 }
 
 header nav ul li a:active {
@@ -410,6 +419,19 @@ p.button a:active {
 
 #chamberMembers p {
 	margin: 0px;
+	font-size: .8em;
+}
+
+#chamberMembers a {
+	margin-top: 5px;
+	display: inline-block;
+	font-size: 1em;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#chamberMembers a:hover {
+	text-decoration: underline;
 }
 
 
