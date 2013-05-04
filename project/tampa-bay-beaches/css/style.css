@@ -450,6 +450,7 @@ aside article {
 
 #contact-info {
 	margin-bottom: 60px;
+	line-height: 19px;
 }
 
 #contact-info th {
@@ -495,6 +496,10 @@ aside article {
 #contactForm fieldset section label {
 	margin-bottom: 5px;
 	display: inline-block;
+}
+
+#contactForm fieldset section label.required {
+	color: #b94b1c;
 }
 
 #contactForm fieldset section input {
