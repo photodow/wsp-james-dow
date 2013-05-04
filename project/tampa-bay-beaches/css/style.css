@@ -500,6 +500,7 @@ aside article {
 
 #contactForm fieldset section label.required {
 	color: #b94b1c;
+	font-style: italic;
 }
 
 #contactForm fieldset section input {
