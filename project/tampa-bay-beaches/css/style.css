@@ -396,6 +396,78 @@ p.button a:active {
 
 /* ---------- contact ---------- */
 
+aside article {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+
+#social-media {
+	padding: 0;
+	margin: 20px 0 0;
+}
+
+#social-media li {
+	clear: both;
+
+	
+}
+
+#social-media img {
+	float: left;
+	border: 1px solid #bfbfbf;
+	margin-bottom: 0;
+	margin-right: 10px;
+
+}
+
+#social-media a{
+
+	overflow: hidden;
+	background: #fff;
+	display: block;
+	border-radius: 3px;
+	margin-top: 10px;
+	padding: 5px;
+	text-decoration: none;
+
+	-moz-box-shadow: 0px 2px 5px #bbb;
+	-webkit-box-shadow: 0px 2px 5px #bbb;
+	box-shadow: 0px 2px 5px #bbb;
+}
+
+#social-media a:hover{
+
+	background: #f5f5f5;
+}
+
+#social-media a span{
+
+	margin-top: 10px;
+	font-size: 1em;
+	display: inline-block;
+}
+
+#contact-info {
+	margin-bottom: 60px;
+}
+
+#contact-info th {
+	font-weight: bold;
+	text-align: left;
+	width: 70px;
+	padding: 5px 0;
+	border-bottom: 1px dotted #bfbfbf;
+
+}
+
+#contact-info td {
+	text-align: left;
+	padding: 10px 0;
+	border-bottom: 1px dotted #bfbfbf;
+
+}
+
 /* ---------- about ---------- */
 
 #chamberMembers {
