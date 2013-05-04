@@ -538,6 +538,47 @@ aside article {
 	color: #515151;
 }
 
+#submit {
+	font-size: 1.15em;
+	border: 1px solid #bfbfbf;
+	margin: 0 20px 20px;
+	border-radius: 3px;
+	padding: 5px 20px;
+	color: #fff;
+	text-shadow: 0 -1px 0 #122b67;
+	cursor: pointer;
+
+	border-top: 1px solid #89abff;
+	border-left: 1px solid #193885;
+	border-right: 1px solid #193885;
+	border-bottom: 1px solid #0c1d47;
+
+	background: rgb(67,115,233); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(67,115,233,1) 0%, rgba(28,63,148,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(67,115,233,1)), color-stop(100%,rgba(28,63,148,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(67,115,233,1) 0%,rgba(28,63,148,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(67,115,233,1) 0%,rgba(28,63,148,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(67,115,233,1) 0%,rgba(28,63,148,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(67,115,233,1) 0%,rgba(28,63,148,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4373e9', endColorstr='#1c3f94',GradientType=0 ); /* IE6-9 */
+
+}
+
+#submit:hover {
+	background: rgb(93,131,223); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(93,131,223,1) 1%, rgba(28,63,148,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(93,131,223,1)), color-stop(100%,rgba(28,63,148,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(93,131,223,1) 1%,rgba(28,63,148,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(93,131,223,1) 1%,rgba(28,63,148,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(93,131,223,1) 1%,rgba(28,63,148,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(93,131,223,1) 1%,rgba(28,63,148,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d83df', endColorstr='#1c3f94',GradientType=0 ); /* IE6-9 */
+}
+
+#submit:active {
+	background: #1c3f94;
+}
+
 /* ---------- about ---------- */
 
 #chamberMembers {
