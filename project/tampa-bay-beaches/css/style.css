@@ -468,6 +468,30 @@ aside article {
 
 }
 
+#contact article {
+	margin-top: 0;
+	padding-top: 0;
+	border: 0;
+}
+
+#contactForm {
+
+}
+
+#contactForm fieldset {
+	margin: 20px 0;
+	display: block;
+	border-top: 1px dotted #bfbfbf;
+}
+
+#contactForm fieldset legend {
+	padding-right: 10px;
+}
+
+#contactForm fieldset section {
+	margin: 20px;
+}
+
 /* ---------- about ---------- */
 
 #chamberMembers {
