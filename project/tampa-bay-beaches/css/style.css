@@ -487,6 +487,9 @@ aside article {
 
 #contactForm fieldset legend {
 	padding-right: 10px;
+}
+
+#contactForm fieldset legend.h2{
 	font-size: 1.25em; /* 18px */
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #139;
