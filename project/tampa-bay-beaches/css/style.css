@@ -33,7 +33,7 @@ h3 {
 
 p {
 	font-size: 1em;
-	margin: 10px 0;
+	margin: 10px 0 0;
 	line-height: 1.3em;
 }
 
@@ -85,7 +85,7 @@ div.top-gradient {
 aside {
 	float: right;
 	background: #eaeaea;
-	padding: 20px 20px 60px;
+	padding: 20px 20px 70px;
 	border-radius: 0 0 3px 3px;
 	margin-top: -20px;
 	width: 270px;
@@ -121,6 +121,9 @@ article {
 	margin-top: 20px;
 	padding-top: 20px;
 	border-top: 1px dotted #bfbfbf;
+
+	width: 585px;
+	overflow: hidden;
 }
 
 #pageDesc {
@@ -272,6 +275,8 @@ footer p {
 	margin-top: 0;
 	padding-top: 0;
 	border-top: 0;
+	width: auto;
+	overflow: visible;
 }
 
 #home header{
@@ -394,12 +399,90 @@ p.button a:active {
 
 /* ---------- events ---------- */
 
+#beach-events {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 600px;
+}
+
+#beach-events li {
+	clear: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#beach-events h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#beach-events p.event-address {
+	font-size: .85em;
+	font-style: italic;
+	margin-top: 0;
+}
+
+#beach-events p.event-price {
+	font-size: .85em;
+	font-style: italic;
+}
+
+aside.date {
+	background: #385292;
+	color: #fff;
+	text-shadow: 0 0 0;
+	border-radius: 3px;
+	float: left;
+	margin: 0;
+	width: 100px;
+	padding: 20px;
+	font-size: 1.25em;
+	line-height: 1.25em;
+	text-align: center;
+	margin-right: 20px;
+
+	-moz-box-shadow: inset 0 0 0;
+	-webkit-box-shadow: inset 0 0 0;
+	box-shadow: inset 0 0 0;
+}
+
+aside.date .numDate {
+	font-size: 2.25em;
+	margin: 10px 0;
+	display: block;
+}
+
+aside ul.news {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+aside ul.news li {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dotted #bfbfbf;
+}
+
+aside ul.news li h3 {
+	margin-top: 0;
+}
+
+#featured-beach-event img {
+	width: 100%;
+	border-radius: 3px;
+	border: 0;
+}
+
 /* ---------- contact ---------- */
 
 aside article {
 	margin-top: 0;
 	padding-top: 0;
 	border-top: 0;
+	width: auto;
+	overflow: visible;
 }
 
 #social-media {
@@ -475,14 +558,11 @@ aside article {
 	border: 0;
 }
 
-#contactForm {
-
-}
-
 #contactForm fieldset {
 	margin: 20px 0;
 	display: block;
 	border-top: 1px dotted #bfbfbf;
+	width: 585px;
 }
 
 #contactForm fieldset legend {
