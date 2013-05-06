@@ -815,4 +815,20 @@ aside article {
 		-webkit-box-shadow: 0 0 0;
 		box-shadow: 0 0 0;
 	}
+
+	aside {
+		display: none;
+	}
+
+	article {
+		width: 100%;
+	}
+
+	#contactForm fieldset section{
+		margin: 5px;
+	}
+
+	#contactForm fieldset section input, #contactForm fieldset section select, #contactForm fieldset section textarea {
+		width: 90%;
+	}
 }
