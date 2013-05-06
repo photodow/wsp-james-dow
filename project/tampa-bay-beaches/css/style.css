@@ -831,4 +831,8 @@ aside article {
 	#contactForm fieldset section input, #contactForm fieldset section select, #contactForm fieldset section textarea {
 		width: 90%;
 	}
+
+	footer nav {
+		display: none;
+	}
 }
