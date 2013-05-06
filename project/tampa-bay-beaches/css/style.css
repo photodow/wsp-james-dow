@@ -755,6 +755,9 @@ aside article {
 /* iPhone 4/4S (portrait) ----------- */
 @media screen and (max-width: 640px) {
 /* Styles */
+	body {
+		font-size: 1em;
+	}
 	header nav ul li {
 		display: block;
 		float: none;
@@ -786,6 +789,30 @@ aside article {
 		bottom: 230px;
 	}
 	header nav {
-		font-size: 1.65em;
+		font-size: 1.25em;
+	}
+	#featured-event {
+		width: 100%;
+	}
+	#welcome {
+		width: 100%;
+	}
+
+	#featured-pages {
+		background: #fff;
+
+		-moz-box-shadow: inset 0 0 0;
+		-webkit-box-shadow: inset 0 0 0;
+		box-shadow: inset 0 0 0;
+	}
+
+	#featured-pages article {
+		width: 100%;
+		margin: 20px 0;
+		padding: 0;
+
+		-moz-box-shadow: 0 0 0;
+		-webkit-box-shadow: 0 0 0;
+		box-shadow: 0 0 0;
 	}
 }
