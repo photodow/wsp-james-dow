@@ -778,4 +778,11 @@ aside article {
 	header nav ul li:last-child {
 		border-right: 0;
 	}
+	#home header, header {
+		background-position: center -180px;
+		height: 400px;
+	}
+	#home #logo, #logo {
+		bottom: 230px;
+	}
 }
