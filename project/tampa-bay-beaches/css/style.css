@@ -785,4 +785,7 @@ aside article {
 	#home #logo, #logo {
 		bottom: 230px;
 	}
+	header nav {
+		font-size: 1.65em;
+	}
 }
