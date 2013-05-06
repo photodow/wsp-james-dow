@@ -54,10 +54,13 @@ ul {
 
 .container {
 	max-width: 920px;
-	width: 100%;
 	margin: 0 auto;
 	padding: 20px;
 	overflow: hidden;
+}
+
+.noborder {
+	border: 0 !important;
 }
 
 section {
@@ -85,13 +88,13 @@ div.top-gradient {
 aside {
 	float: right;
 	background: #eaeaea;
-	padding: 20px 20px 70px;
+	padding: 20px 2.08333333% 70px;
 	border-radius: 0 0 3px 3px;
 	margin-top: -20px;
-	width: 270px;
+	width: 28.125%;
 	border-left: 1px solid #fff;
 	border-right: 1px solid #fff;
-	margin-left: 20px;
+	margin-left: 2.08333333%;
 	margin-bottom: 20px;
 
 	text-shadow: 0 1px 0 #f5f5f5;
@@ -105,6 +108,7 @@ aside img {
 	border: 1px solid #bfbfbf;
 	border-radius: 3px;
 	margin-bottom: 20px;
+	width: 100%;
 
 	-moz-box-shadow: 0px 1px 0px #f5f5f5;
 	-webkit-box-shadow: 0px 1px 0px #f5f5f5;
@@ -122,7 +126,7 @@ article {
 	padding-top: 20px;
 	border-top: 1px dotted #bfbfbf;
 
-	width: 585px;
+	width: 63.5869565%;
 	overflow: hidden;
 }
 
@@ -135,8 +139,9 @@ article {
 article img {
 	border: 1px solid #bfbfbf;
 	border-radius: 3px;
-	margin-right: 20px;
+	margin-right: 3.41880342%;
 	float: left;
+	width: 25.982906%;
 }
 
 
@@ -178,7 +183,8 @@ header nav ul {
 	padding: 0;
 	margin: 0 auto;
 	overflow: hidden;
-	width: 655px;
+	max-width: 655px;
+	width: 100%;
 	text-shadow: 0px -1px 0px #000;
 }
 
@@ -236,7 +242,8 @@ footer nav ul {
 	padding: 0;
 	margin: 0 auto;
 	overflow: hidden;
-	width: 547px;
+	max-width: 547px;
+	width: 100%;
 	margin-bottom: 10px;
 }
 
@@ -275,7 +282,6 @@ footer p {
 	margin-top: 0;
 	padding-top: 0;
 	border-top: 0;
-	width: auto;
 	overflow: visible;
 }
 
@@ -301,10 +307,10 @@ footer p {
 #featured-pages article {
 	background-color: #fff;
 	float: left;
-	margin-right: 20px;
-	padding: 20px;
+	margin-right: 2.17391304%;
+	padding: 2.17391304%;
 	border-radius: 3px;
-	width: 410px;
+	width: 44.5652174%;
 	display: inline-block;
 
 
@@ -324,7 +330,8 @@ footer p {
 	border: 1px solid #b6b6b6;
 	border-radius: 3px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 4.87804878%;
+	width: 36.3414634%;
 
 }
 
@@ -378,13 +385,13 @@ p.button a:active {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-	margin-left: 20px;
-	padding-bottom: 17px;
-	background: url('../images/featured-event-shadow.png') no-repeat center bottom;
+	margin-left: 2.17391304%;
+	width: 65.2173913%;
 }
 
 #home #featured-event img {
 	margin-right: 0;
+	width: 100%;
 }
 
 #featured-event img {
@@ -403,7 +410,7 @@ p.button a:active {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	width: 600px;
+	width: 100%;
 }
 
 #beach-events li {
@@ -435,12 +442,12 @@ aside.date {
 	border-radius: 3px;
 	float: left;
 	margin: 0;
-	width: 100px;
-	padding: 20px;
+	width: 17.0940171%;
+	padding: 3.41880342%;
 	font-size: 1.25em;
 	line-height: 1.25em;
 	text-align: center;
-	margin-right: 20px;
+	margin-right: 3.41880342%;
 
 	-moz-box-shadow: inset 0 0 0;
 	-webkit-box-shadow: inset 0 0 0;
@@ -508,7 +515,8 @@ aside article {
 	float: left;
 	border: 1px solid #bfbfbf;
 	margin-bottom: 0;
-	margin-right: 10px;
+	margin-right: 3.86100386%;
+	width: 15.4440154%;
 
 }
 
@@ -519,7 +527,7 @@ aside article {
 	display: block;
 	border-radius: 3px;
 	margin-top: 10px;
-	padding: 5px;
+	padding: 1.93050193%;
 	text-decoration: none;
 
 	-moz-box-shadow: 0px 2px 5px #bbb;
@@ -534,7 +542,7 @@ aside article {
 
 #social-media a span{
 
-	margin-top: 10px;
+	margin-top: 3.86100386%;
 	font-size: 1em;
 	display: inline-block;
 }
@@ -547,7 +555,7 @@ aside article {
 #contact-info th {
 	font-weight: bold;
 	text-align: left;
-	width: 70px;
+	width: 27.027027%;
 	padding: 5px 0;
 	border-bottom: 1px dotted #bfbfbf;
 
@@ -564,13 +572,14 @@ aside article {
 	margin-top: 0;
 	padding-top: 0;
 	border: 0;
+
 }
 
 #contactForm fieldset {
 	margin: 20px 0;
 	display: block;
 	border-top: 1px dotted #bfbfbf;
-	width: 585px;
+	width: 100%;
 }
 
 #contactForm fieldset legend {
@@ -585,7 +594,7 @@ aside article {
 }
 
 #contactForm fieldset section {
-	margin: 20px;
+	margin: 3.41880342%;
 }
 
 #contactForm fieldset section label {
@@ -600,7 +609,7 @@ aside article {
 
 #contactForm fieldset section input {
 	margin-bottom: 10px;
-	width: 250px;
+	width: 42.7350427%;
 	padding: 5px;
 	font-size: 1.15em;
 
@@ -616,13 +625,13 @@ aside article {
 }
 
 #contactForm fieldset section input.phone {
-	width: 67px;
-	margin-right: 12px;
+	width: 11.4529915%;
+	margin-right: 2.05128205%;
 }
 
 #contactForm fieldset section select {
 	margin-bottom: 10px;
-	width: 250px;
+	width: 42.7350427%;
 	padding: 5px;
 	font-size: 1.15em;
 	color: #515151;
@@ -630,7 +639,7 @@ aside article {
 
 #contactForm fieldset section textarea {
 	margin-bottom: 10px;
-	width: 500px;
+	width: 85.4700855%;
 	padding: 5px;
 	font-size: 1em;
 
@@ -642,7 +651,7 @@ aside article {
 #submit {
 	font-size: 1.15em;
 	border: 1px solid #bfbfbf;
-	margin: 0 20px 20px;
+	margin: 0 3.41880342% 20px;
 	border-radius: 3px;
 	padding: 5px 20px;
 	color: #fff;
@@ -694,7 +703,8 @@ aside article {
 
 #chamberMembers img {
 	float: left;
-	margin-right: 10px;
+	margin-right: 3.86100386%;
+	width: 24.7104247%;
 }
 
 #chamberMembers h3 {
@@ -720,19 +730,25 @@ aside article {
 
 
 
+/* iPad Mini (landscape) ----------- */
+@media screen and (max-width: 1024px) {
+/* Styles */
+/* Normal Site Looks Fine */
+}
+
 /* iPhone 4/4S (landscape) ----------- */
 @media screen and (max-width: 960px) {
 /* Styles */
-	body {
-		font-size: .9em;
-	}
+
+
+
 }
 
 /* iPad Mini (portrait) ----------- */
 @media screen and (max-width: 768px) {
 /* Styles */
 	body {
-		font-size: .8em;
+		font-size: .7em;
 	}
 }
 
