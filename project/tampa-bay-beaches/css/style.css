@@ -39,11 +39,11 @@ p {
 }
 
 a {
-	color: #1c3f94;
+	color: rgb(197, 103, 0);
 }
 
 a:hover {
-	color: #3d67cd;
+	color: rgb(209, 158, 29);
 }
 
 ul {
@@ -154,7 +154,7 @@ article img {
 /* ---------- header ---------- */
 
 header {
-	background: #100 url('../images/header-bg.png') no-repeat center -455px;
+	background: #4a2507 url('../images/header-bg.png') no-repeat center -455px;
 	position: relative;
 	height: 175px;
 }
@@ -174,7 +174,7 @@ header {
 }
 
 header nav {
-	background: rgba(196, 152, 99, .5);
+	background: rgba(90, 131, 253, 0.5);
 	border-top: 1px solid rgba(255, 255, 255, .2);
 	border-bottom: 1px solid rgba(0, 0, 0, .5);
 	position: absolute;
@@ -218,12 +218,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: rgba(196, 152, 99, .40);
+	background: rgba(90, 131, 253, 0.4);
 	color: #fff;
 }
 
 header nav ul li a:active {
-	background: rgba(196, 152, 99, .0);
+	background: rgba(90, 131, 253, 0);
 }
 
 /* ---------- footer ---------- */
@@ -232,7 +232,7 @@ footer { /* Maybe Add Texture/Patter */
 	background: #2a2a2a;
 	padding: 20px;
 	font-size: 11px;
-	color: #fff;
+	color: #777;
 	border-top: 1px solid #19130f;
 
 	-moz-box-shadow: inset 0px 2px 3px rgba(0,0,0,.2);
