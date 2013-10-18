@@ -10,22 +10,22 @@ body {
 	text-shadow: 0 1px 0 #fff;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	color: #139;
 	margin: 0 0 10px;
 }
 
-h1{
+h1, h2{
 	font-size: 1.7em; /* 24px */
 	line-height: 1.3em;
 }
 
-h2 {
+h3 {
 	font-size: 1.25em; /* 18px */
 }
 
-h3 {
+h4 {
 	font-size: 1em;
 	font-weight: bold;
 	margin: 10px 0;
@@ -35,6 +35,7 @@ p {
 	font-size: 1em;
 	margin: 10px 0 0;
 	line-height: 1.3em;
+	text-align: justify;
 }
 
 a {
@@ -153,7 +154,7 @@ article img {
 /* ---------- header ---------- */
 
 header {
-	background: #100 url('../images/header-bg.png') no-repeat center -500px;
+	background: #100 url('../images/header-bg.png') no-repeat center -455px;
 	position: relative;
 	height: 175px;
 }
@@ -165,7 +166,7 @@ header {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 40px;
+	bottom: 30px;
 }
 
 #logo img {
@@ -228,7 +229,7 @@ header nav ul li a:active {
 /* ---------- footer ---------- */
 
 footer { /* Maybe Add Texture/Patter */
-	background: #3c3f41;
+	background: #2a2a2a;
 	padding: 20px;
 	font-size: 11px;
 	color: #fff;
@@ -262,12 +263,12 @@ footer nav ul li a {
 	padding: 10px 20px;
 	display: inline-block;
 	text-decoration: none;
-	color: #808DAC;
+	color: rgb(229,181,60);
 }
 
 footer nav ul li a:hover {
 	text-decoration: underline;
-	color: #A7B5D8;
+	color: rgb(211,133,47);
 }
 
 footer nav ul li a:active {
@@ -290,12 +291,23 @@ footer p {
 }
 
 #home header{
-	height: 400px;
-	background-position: center -300px;
+	/*height: 400px;
+	background-position: center -300px;*/
 }
 
 #home #logo {
-	bottom: 70px;
+	/*bottom: 70px;*/
+}
+
+#welcome {
+	width: 100%;
+}
+
+#welcome object {
+	float: right;
+	width: 600px;
+	height: 338px;
+	margin-left: 20px;
 }
 
 #featured-pages {
@@ -378,10 +390,6 @@ p.button a:hover {
 
 p.button a:active {
 	background: #ba7529;
-}
-
-#welcome {
-
 }
 
 #featured-event {
@@ -507,6 +515,7 @@ aside article {
 #social-media {
 	padding: 0;
 	margin: 20px 0 0;
+	list-style-type: none;
 }
 
 #social-media li {
