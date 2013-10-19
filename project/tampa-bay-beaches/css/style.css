@@ -8,6 +8,7 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color: #515151;
 	text-shadow: 0 1px 0 #fff;
+	background: #2a2a2a;
 }
 
 h1, h2, h3 {
@@ -70,6 +71,23 @@ ul {
 
 section {
 	position: relative;
+}
+
+section.main {
+
+	background: #fff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eaeaea 0%, #fff 25%, #fff 75%, #f5f5f5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(25%,#fff), color-stop(75%,#fff), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eaeaea 0%,#fff 25%,#fff 75%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eaeaea 0%,#fff 25%,#fff 75%,#f5f5f5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eaeaea 0%,#fff 25%,#fff 75%,#f5f5f5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eaeaea 0%,#fff 25%,#fff 75%,#f5f5f5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+
+	background-color: #fff;
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #fff;
 }
 
 div.top-gradient {
@@ -154,7 +172,7 @@ article img {
 /* ---------- header ---------- */
 
 header {
-	background: #4a2507 url('../images/header-bg.png') no-repeat center -455px;
+	background: #361800 url('../images/header-bg.png') no-repeat center -455px;
 	position: relative;
 	height: 175px;
 }
