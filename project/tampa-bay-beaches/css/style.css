@@ -321,7 +321,7 @@ footer p {
 	width: 100%;
 }
 
-#welcome object {
+#welcome object, #welcome video {
 	float: right;
 	width: 600px;
 	height: 338px;
