@@ -14,7 +14,7 @@
 <h3>The New Website Goals</h3>
 <p>The new website needs to be focused more towards the goal of vacation planning. Beaches and local business get most of their revenue around vacation season. I don’t think we should get rid of either the relocation section, or the chamber of commerce section, but they should fall more into the background, especially the Chamber of Commerce section because it doesn’t help the consumer much at all. Rather, it helps the client, who should already know the ins and outs of the site because they visit it more frequently.</p>
 
-<h2>Site Intent</h2>
+<h2>Target Audience</h2>
 <h3>Allison Gertrude</h3>
 <p>Allison is a 36 year old stay at home mom with an Associates of Arts degree in Liberal Studies. With her husband and 3 kids, she is looking to find the perfect beach to help her husband relax from his full time job. She is not sure where she wants to go, but her friend Terresa, who read’s Melody’s blogger site, suggested the West coast due to calmer waters. Melody isn’t a computer genius by any means, but she understands the basic functions of a website, and can find her way around the Internet without any problems.</p>
 <h3>Marissa Porter</h3>
